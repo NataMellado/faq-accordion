@@ -1,13 +1,4 @@
-/* # Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
+/* ## Colors
 
 - White: hsl(0, 0%, 100%)
 - Light pink: hsl(275, 100%, 97%)
@@ -23,4 +14,47 @@ The designs were created to the following widths:
 ### Font
 
 - Family: [Work Sans](https://fonts.google.com/specimen/Work+Sans)
-- Weights: 400, 600, 700 */
+- Weights: 400, 600, 700 */ 
+
+:root {
+    /* primary color */
+    --clr-pr-1: hsl(292, 16%, 49%);
+    --clr-pr-2: hsl(292, 42%, 14%);
+    --clr-pr-3: #AD28EB;
+
+    /* neutral color */
+    --clr-nt-white: hsl(0, 0%, 100%);
+    --clr-nt-light: hsl(275, 100%, 97%);
+
+    /* font */
+    --ff-primary: 'Work Sans', sans-serif;
+
+    /* font weight */
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+
+    /* font size desktop */
+    --fs-h1-d: 3.5rem;
+    --fs-h2-d: 1.125rem;
+    --fs-p-d: 1rem;
+
+    /* font size mobile */
+    --fs-h1-m: 2rem;
+    --fs-h2-m: 1rem;
+    --fs-p-m: 0.875rem;
+
+    /* line height desktop*/
+    --lh-p-d: 1.5rem;
+
+    /* line height mobile */
+    --lh-h2-m: 1.188rem;
+    --lh-p-m: 1.313rem;
+
+    /* border radius */
+    --br-d: 1rem;
+    --br-m: 0.625rem;
+
+
+
+}
