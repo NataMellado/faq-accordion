@@ -58,7 +58,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: clamp(0rem, 4vh, 2.5rem);
+    gap: 1rem;
     transition: all 0.2s linear;
     cursor: pointer;
 }
@@ -115,6 +115,7 @@ h1 {
 h2 {
     font-size: var(--fs-h2-m);
     line-height: var(--lh-h2-m);
+    font-weight: var(--fw-600);
 }
 
 p {
