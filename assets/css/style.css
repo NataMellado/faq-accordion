@@ -61,10 +61,8 @@ body {
     cursor: pointer;
 }
 
-.faq-question-container:hover,
-.faq-question-container:focus{
+.faq-question-container:hover{
     color: var(--clr-pr-3);
-    outline: none;
 }
 
 .faq-answer {
