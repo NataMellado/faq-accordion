@@ -36,6 +36,8 @@ body {
     padding: 1.5rem;
     display: grid;
     gap: 1.475rem;
+    /* // a shadow for all sides */
+    box-shadow: 0px 20px 30px 10px rgba(86, 3, 134, 0.1);
 }
 
 .faq-container {
